@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B & W Store </title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo" width="125px;">
+            </div>
+            <nav>
+                <ul id="menuItems1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" alt="" srcset="" width="30px " height="auto">
+            <img src="images/menu.png" class="menu-icon" alt="" srcset="" width="30px " height="auto"
+                onclick="menuToggle()">
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>Connect with us</h2>
+        <p id="quote1">We would love to response to your queries. <br> Feel free to get in touch with us</p>
+
+        <div class="small-container1">
+            <div class="row">
+                <div class="col-2" id="first-half">
+                    <h3>Send us Message</h3>
+                    <form action="" id="messageform">
+                        <input type="text" name="username" placeholder="Name"><br>
+                        <input type="text" name="username" placeholder="Phone no."><br>
+                        <input type="text" name="username" placeholder="Email"><br>
+                        <input type="text" name="username" placeholder="Subject"><br>
+                        <input id="textarea" type="text" name="username" placeholder="Enter your Message">
+                        <input id="submitbtn" type="submit" value="Send" class="btn">
+                    </form>
+                </div>
+                <div class="col-2" id="second-half">
+                    <div class="row">
+                        <div class="col-1">
+                            <table>
+                                <tr>
+                                    <td>Email</td>
+                                    <td>techmindashwin78@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Phone</td>
+                                    <td>7500967189</td>
+                                </tr>
+                                <tr>
+                                    <td>Address</td>
+                                    <td>#212,Ground Floor,7th cross
+                                        Some layout,Some road,Ratnagiri
+                                        Maharastra,836453
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h4>Download our App</h3>
+                        <p>Download app for android and ios mobiles</p>
+
+                        <div class="app-btns">
+                            <a href="" class="btn2">
+                                <img src="images/play-store.png" alt="">
+                            </a>
+                            <a href="" class="btn2">
+                                <img src="images/app-store.png" alt="">
+                            </a>
+
+                        </div>
+                </div>
+                <div class="footer-col-2">
+
+                    <img src="images/logo-white.png" alt="logo" width="125px;">
+
+                    <p>Our purpose is to deliever the best services <br> to our customers</p>
+                </div>
+                <div class="footer-col-3">
+                    <h4>Useful Links</h3>
+                        <ul>
+                            <li><a href="">Coupons</a></li>
+                            <li><a href="">Blog Post</a></li>
+                            <li><a href="">Returnd Policy</a></li>
+                            <li><a href="">Join Affiliate</a></li>
+                        </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h4>Follow Us</h3>
+                        <ul>
+                            <li><a href="">Facebook</a></li>
+                            <li><a href="">Instagram</a></li>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">Youtube</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - Ashwin Tech Mind</p>
+    </div>
+
+
+    <script>
+        var menuItems = document.getElementById("menuItems1");
+        menuItems.style.maxHeight = "0px";
+        function menuToggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>
